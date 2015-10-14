@@ -2,5 +2,13 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/instalki/ojdbc6(1).jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-beans-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-context-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-core-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-jdbc-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-context-support-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/instalki/spring-framework-3.2.9.RELEASE-dist/spring-framework-3.2.9.RELEASE/libs/spring-expression-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
