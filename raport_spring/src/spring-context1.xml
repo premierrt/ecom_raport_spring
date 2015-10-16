@@ -22,9 +22,7 @@
 <bean id="dataSource" class="oracle.jdbc.pool.OracleDataSource">
     <property name="dataSourceName" value="ds"/>
     <property name="URL" value="jdbc:oracle:thin:@172.16.17.160:1521:prodwfdb"/>
-   <property name="user" value="sys_wf"/>
-    <property name="password" value="wrkflw"/>
-   
+
 </bean>
  <!--  
      <bean id="napis" class="raport_spring.Napis"></bean>
