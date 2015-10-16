@@ -11,24 +11,24 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	//	Main main = new Main();
-		//main.start();
-		ApplicationContext context=new
-				ClassPathXmlApplicationContext("spring-context1.xml");
-	//	countLastDay= context.getBean(CountLastDay.class); 
-	//	countLastDay.compute();
-		Napis napis=(Napis)context.getBean("napis");
-		napis.pisz();
+		Main main = new Main();
+		main.start();
+		//ApplicationContext context=new
+		//		ClassPathXmlApplicationContext("spring-context1.xml");
+		//countLastDay= context.getBean(CountLastDay.class); 
+		//countLastDay.compute();
+		//napis.pisz();
 	}
 	
 	private CountLastDay countLastDay;
 	
 	private void start(){
-		ApplicationContext context=new
-				ClassPathXmlApplicationContext("classpath*:spring-context1.xml");
-	//	countLastDay= context.getBean(CountLastDay.class); 
-	//	countLastDay.compute();
+		ApplicationContext context=new ClassPathXmlApplicationContext("classpath*:spring-context1.xml");
+		countLastDay= context.getBean(CountLastDay.class); 
+		countLastDay.compute();
 		Napis napis=(Napis)context.getBean("napis");
+		napis.pisz();
+
 	}
 
 }
