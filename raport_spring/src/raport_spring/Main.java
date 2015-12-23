@@ -26,8 +26,9 @@ public class Main {
 		ApplicationContext context=new ClassPathXmlApplicationContext("classpath*:spring-context1.xml");
 		countLastDay= context.getBean(CountLastDay.class); 
 		countLastDay.compute();
-		Napis napis=(Napis)context.getBean("napis");
-		napis.pisz();
+		//Napis napis=(Napis)context.getBean("napis");
+		//napis.pisz();
+		
 
 	}
 
